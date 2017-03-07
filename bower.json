@@ -1,0 +1,50 @@
+{
+  "name": "globalize-webpack-bower",
+  "description": "A sample repository to reproduce issue with globalize-webpack-plugin and bower-resolve-webpack-plugin",
+  "main": "index.js",
+  "authors": [
+    "Nishant Agrawal"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/nishantkagrawal/globalize-webpack-bower",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-animate": "1.5.8",
+    "angular-bootstrap": "2.2.0",
+    "angular-cookies": "1.5.8",
+    "angular-translate": "2.7.2",
+    "angular-translate-loader-partial": "2.7.2",
+    "angular-ui-router": "0.2.13",
+    "angular-touch": "1.5.8",
+    "angular-sanitize": "1.5.8",
+    "angular-resource": "1.5.8",
+    "angular-messages": "1.5.8",
+    "angular-loader": "1.5.8",
+    "angular-i18n": "1.5.8",
+    "angular-translate-handler-log": "2.7.2",
+    "angular-translate-interpolation-messageformat": "2.7.2",
+    "underscore": "^1.8.3",
+    "globalize": "^1.2.2",
+    "bootstrap": "3.3.6",
+    "moment": "momentjs#^2.17.1",
+    "angular-ui-select": "^0.19.6",
+    "animate.css": "3.1.1",
+    "bignumber.js": "^4.0.0",
+    "oclazyload": "^1.0.9",
+    "angular-route": "1.5.8",
+    "cldr-data": "^29.0.0",
+    "angulartics": "^1.4.0",
+    "rxjs": "^4.1.0",
+    "fastclick": "^1.0.6"
+  },
+  "resolutions": {
+    "angular": "1.5.8"
+  }
+}

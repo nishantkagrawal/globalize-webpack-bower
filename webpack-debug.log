@@ -1,0 +1,46 @@
+Hash: 134e7de8d981f0906917
+Version: webpack 2.2.1
+Time: 928ms
+                                             Asset     Size  Chunks                    Chunk Names
+                                       0.bundle.js  1.18 MB       0  [emitted]  [big]  vendor
+                                       1.bundle.js  1.19 MB       1  [emitted]  [big]  app
+globalize-compiled-data-en.134e7de8d981f0906917.js  2.51 kB       2  [emitted]         globalize-compiled-data-en
+   [0] ./app/webpack-vendor.js 3.6 kB {0} [built] [failed] [1 error]
+  [24] ./app/app.js 142 bytes {1} [built]
+  [25] multi  16 bytes {2} [built]
+  [26] multi ./app/webpack-vendor.js 28 bytes {0} [built]
+    + 23 hidden modules
+
+ERROR in ./app/webpack-vendor.js
+Module parse failed: C:\Users\U0136354\Desktop\globalize-webpack-bower\app\webpack-vendor.js Cannot find module 'globalize'
+You may need an appropriate loader to handle this file type.
+Error: Cannot find module 'globalize'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.compileExtracts (C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\globalize-compiler\lib\compile-extracts.js:9:18)
+    at GlobalizeCompilerHelper.compile (C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\globalize-webpack-plugin\GlobalizeCompilerHelper.js:63:33)
+    at GlobalizeCompilerHelper.createCompiledDataModule (C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\globalize-webpack-plugin\GlobalizeCompilerHelper.js:37:35)
+    at Parser.<anonymous> (C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\globalize-webpack-plugin\ProductionModePlugin.js:80:60)
+    at Parser.applyPluginsBailResult (C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\tapable\lib\Tapable.js:109:27)
+    at Parser.parser.plugin (C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\webpack\lib\dependencies\CommonJsRequireDependencyParserPlugin.js:59:27)
+    at Parser.applyPluginsBailResult1 (C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\tapable\lib\Tapable.js:120:27)
+    at Parser.walkCallExpression (C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\webpack\lib\Parser.js:896:18)
+    at Parser.walkExpression (C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\webpack\lib\Parser.js:693:40)
+    at Parser.walkExpressionStatement (C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\webpack\lib\Parser.js:443:7)
+    at Parser.walkStatement (C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\webpack\lib\Parser.js:434:32)
+    at Parser.<anonymous> (C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\webpack\lib\Parser.js:417:9)
+    at Array.forEach (native)
+    at Parser.walkStatements (C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\webpack\lib\Parser.js:415:13)
+    at Parser.parse (C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\webpack\lib\Parser.js:1145:8)
+    at C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\webpack\lib\NormalModule.js:200:17
+    at C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\webpack\lib\NormalModule.js:162:10
+    at C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\loader-runner\lib\LoaderRunner.js:370:3
+    at iterateNormalLoaders (C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\loader-runner\lib\LoaderRunner.js:211:10)
+    at Array.<anonymous> (C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\loader-runner\lib\LoaderRunner.js:202:4)
+    at Storage.finished (C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:38:15)
+    at C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:69:9
+    at C:\Users\U0136354\Desktop\globalize-webpack-bower\node_modules\graceful-fs\graceful-fs.js:78:16
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:445:3)
+ @ multi ./app/webpack-vendor.js

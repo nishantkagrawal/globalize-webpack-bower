@@ -1,0 +1,30 @@
+{
+  "name": "globalize-webpack-bower",
+  "version": "1.0.0",
+  "description": "A sample repository to reproduce issue with globalize-webpack-plugin and bower-resolve-webpack-plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": ".\\node_modules\\.bin\\webpack --config config\\webpack.config.js > webpack-debug.log"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishantkagrawal/globalize-webpack-bower.git"
+  },
+  "author": "Nishant Agrawal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishantkagrawal/globalize-webpack-bower/issues"
+  },
+  "homepage": "https://github.com/nishantkagrawal/globalize-webpack-bower#readme",
+  "devDependencies": {
+    "bower-resolve-webpack-plugin": "^1.0.2",
+    "globalize-webpack-plugin": "^0.3.10",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "@types/angular": "^1.5.23",
+    "@types/jquery": "^2.0.39",
+    "cldr-data": "^30.0.4"
+  }
+}
